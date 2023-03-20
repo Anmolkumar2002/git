@@ -7,12 +7,31 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="">
+        <fieldset>
+            <legend>Welcome</legend>
 
-    <p>Welcome </p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
 
-    <h1>Jai shree Ram</h1>
-    <p>my name is anmol kumar.</p>
-    <h4></h4>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
 
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age"><br>
+
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">other</option>
+            </select><br>
+
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Enter your comments....."></textarea><br>
+
+            <input type="submit" name="submit" id="submit" value="submit">
+        </fieldset>
+    </form>
 </body>
 </html>
